@@ -1,6 +1,6 @@
 Explotación de vulnerabilidad utilizando metasploit
 ===============
-Este laboratorio es para fines educativos y su contenido no debe ser utilizado para fines ilícitos  
+Este laboratorio es para fines educativos y su contenido no debe ser utilizado para fines ilícitos  prueba
 
 **Objetivos**
 * Experimentar la explotación de una vulnerabilidad 
@@ -27,8 +27,6 @@ use auxiliary/scanner/smb/smb_ms17_010
 ```
 run
 ```
-
-
 
 **Exploiting**
 * use exploit/windows/smb/ms17_010_eternalblue
