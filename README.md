@@ -1,3 +1,1 @@
 # SocAnalyst
-
-# Un título
