@@ -1,7 +1,15 @@
 Markdown Example
 ===============
 
-This is the raw markdown used to generate the below web content.
+**Objetivos**
+* Experimentar la explotación de una vulnerabilidad 
+* Interactuar con la consola de comandos de comandos de metasploit. 
+* Interactuar con la consola de comandos de meterpreter.  
+
+**Requisitos**
+* Máquina objetivo:Windows 7 , 64 bits, con el Firewall inactivo  
+* Equipo Auditor: Kali Linux 
+
 
 Bulleted List
 -------------
