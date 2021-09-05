@@ -16,6 +16,8 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 ```
 msfconsole
 ```
+![alt text](./lab01-images/lab01-fig1-msf-console.png "Metasploit framework")
+
 ```
 Search ms17_10
 ```
