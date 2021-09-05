@@ -1,5 +1,6 @@
-Markdown Example
+Explotación de vulnerabilidad utilizando metasploit
 ===============
+Este laboratorio es para fines educativos y su contenido no debe ser utilizado para fines ilícitos  
 
 **Objetivos**
 * Experimentar la explotación de una vulnerabilidad 
@@ -11,24 +12,7 @@ Markdown Example
 * Equipo Auditor: Kali Linux 
 
 
-Bulleted List
--------------
-
-* Foo
-* Bar
-
-Numbered List
--------------
-
-1. Foo
-2. Bar
-
-Formatting
-----------
-
-Can be **bold** or *italic*
-
-Links
------
+Enlace para mayor información
+----- https://www.metasploit.com/
 
 Click [here](http://foo.com) to go somewhere.
