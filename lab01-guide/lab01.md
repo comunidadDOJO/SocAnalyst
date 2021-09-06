@@ -8,7 +8,7 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 * Interactuar con la consola de comandos de meterpreter.  
 
 **Requisitos**
-* Máquina objetivo:Windows 7 64 bits vulnerable  
+* Máquina objetivo: Windows 7 64bits  
 * Equipo Auditor: Kali Linux 
 
 **Utilizar un scanner para detercar si el equipo es vulnerable a  MS17-010**
