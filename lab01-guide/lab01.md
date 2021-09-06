@@ -48,13 +48,13 @@ exploit
 ```
  
 **Post Exploitation**
-```
+```bash
 Sysinfo
 ```
-```
+```bash
 Getuid
 ```
-```
+```Bash
 Shell
 ```
 
