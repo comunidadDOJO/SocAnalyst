@@ -62,6 +62,13 @@ Shell
 ![alt text](./lab01-images/lab01-fig7-msf-console.PNG "Metasploit framework")
 
 Enlace para mayor información
+```
 https://www.metasploit.com/
-https://www.offensive-security.com/metasploit-unleashed/msfconsole-commands/
+```
+```
+https://www.offensive-security.com/
+metasploit-unleashed/msfconsole-commands/
+```
+```
 https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/
+```
