@@ -19,7 +19,7 @@ msfconsole
 ![alt text](./lab01-images/lab01-fig1-msf-console.png "Metasploit framework")
 
 ```
-Search ms17_10
+Search ms17_010
 ```
 ![alt text](./lab01-images/lab01-fig2-msf-console.PNG "Metasploit framework")
 ```
