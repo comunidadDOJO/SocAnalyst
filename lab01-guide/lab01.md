@@ -11,7 +11,7 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 * Máquina objetivo: Windows 7 64bits  
 * Equipo Auditor: Kali Linux 
 
-**Utilizar un scanner para detercar si el equipo es vulnerable a  MS17-010**
+**Utilizar un scanner para detectar si el equipo es vulnerable a  MS17-010**
 * Desde Kali Linux Inicie una sesión de terminal y escriba los siguientes comandos:
 ```
 msfconsole
