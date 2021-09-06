@@ -55,11 +55,11 @@ Sysinfo
 ```bash
 Getuid
 ```
-![alt text](./lab01-images/lab01-fig7-msf-console.PNG "Metasploit framework")
+![alt text](./lab01-images/lab01-fig6-msf-console.PNG "Metasploit framework")
 ```Bash
 Shell
 ```
-![alt text](./lab01-images/lab01-fig5-msf-console.PNG "Metasploit framework")
+![alt text](./lab01-images/lab01-fig7-msf-console.PNG "Metasploit framework")
 
 Enlace para mayor información
 https://www.metasploit.com/
