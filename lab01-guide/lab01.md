@@ -21,7 +21,7 @@ msfconsole
 ```
 Search ms17_10
 ```
-![alt text](./lab01-images/lab01-fig2-msf-console.png "Metasploit framework")
+![alt text](./lab01-images/lab01-fig2-msf-console.PNG "Metasploit framework")
 ```
 use auxiliary/scanner/smb/smb_ms17_010
 ``` 
