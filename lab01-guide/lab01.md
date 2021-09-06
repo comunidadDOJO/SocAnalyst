@@ -4,7 +4,7 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 
 **Objetivos**
 * Experimentar la explotación de una vulnerabilidad 
-* Interactuar con la consola de comandos de comandos de metasploit. 
+* Interactuar con la consola de comandos de metasploit. 
 * Interactuar con la consola de comandos de meterpreter.  
 
 **Requisitos**
@@ -47,7 +47,7 @@ exploit
 ```
 ![alt text](./lab01-images/lab01-fig3-msf-console.PNG "Metasploit framework")
  
-**Post Exploitation**
+**Post Explotación**
 ```bash
 Sysinfo
 ```
