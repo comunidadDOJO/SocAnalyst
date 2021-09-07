@@ -79,11 +79,20 @@ services:
     volumes:
       - splunk-data:/opt/splunk
 ```
+
+Ahora descargamos e instalamos la imagen de Splunk desde el hub Docker usando los datos del archivo .yml que acabamos de crear usando el siguiente código docker-compose up. Este comando también nos permitirá ejecutar splunk para que podamos acceder a la interfaz web y empezar a utilizarla.
+
 ```
 docker-compose up
 ```
+
+Ahora confirmamos que splunk está en funcionamiento abriendo una nueva terminal y utilizando el comando
 ```
 sudo docker ps
 ```
+Y por último, vamos a nuestro navegador, escribimos la IP de nuestro servidor y el puerto 8083. (x.x.x.x:8083) 
+usename:admin
+contraseña:d0j02020
+
 
 
