@@ -94,9 +94,22 @@ Y por último, vamos a nuestro navegador, escribimos la IP de nuestro servidor y
 * usuario : admin
 * contraseña: d0j02020
 
-Felicidades ya lograste instalar Splunk
+Felicidades ya lograste instalar Splunk ahora vamos a importar un bitacora que contienen los eventos de windows
+Para descargar: https://www.dropbox.com/s/qxeapputhg69qyd/Splun%20-%20Event%20Log%20example.evtx?dl=0
+
+
+
+![alt text](./lab02-images/lab02-fig2-splunk.png "Metasploit framework")
+
+![alt text](./lab02-images/lab02-fig3-splunk.png "Metasploit framework")
+
+![alt text](./lab02-images/lab04-fig1-splunk.png "Metasploit framework")
+
+![alt text](./lab02-images/lab02-fig5-splunk.png "Metasploit framework")
+![alt text](./lab02-images/lab02-fig6-splunk.png "Metasploit framework")
+![alt text](./lab02-images/lab02-fig7-splunk.png "Metasploit framework")
+
 
 Para mayor información
-(https://www.splunk.com/)
-(https://www.splunk.com/en_us/training/free-courses/)(splunk-fundamentals-1.html)
-
+[Sitio oficial de Splunk] (https://www.splunk.com/)
+[Curso gratuito oficial de Splunk] (https://www.splunk.com/en_us/training/free-courses/)(splunk-fundamentals-1.html)
