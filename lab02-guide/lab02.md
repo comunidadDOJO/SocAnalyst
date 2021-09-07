@@ -26,10 +26,10 @@ sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release 
  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
  ```
  ```
- # echo \ "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu/ $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ echo \ "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu/ $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
  ```
  ```
-# apt-get update && apt-get upgrade -y
+apt-get update && apt-get upgrade -y
  ```
  ```
   apt-get install docker-ce docker-ce-cli containerd.io -y
@@ -39,11 +39,18 @@ Y por último, habilitaremos dockers para que se inicie al arrancar el ordenador
 systemctl enable docker && systemctl start docker
 ```
 ```
-# sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
 ```
 sudo chmod +x /usr/local/bin/docker-compose
+```
+```
 docker-compose version
+```
+```
 nano docker-compose.yml 
+```
+```
 version: "2"
 
 networks:
@@ -71,8 +78,12 @@ services:
       - 8084:8089
     volumes:
       - splunk-data:/opt/splunk
-
+```
+```
 docker-compose up
+```
+```
 sudo docker ps
+```
 
 
