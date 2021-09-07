@@ -90,8 +90,13 @@ Ahora confirmamos que splunk está en funcionamiento abriendo una nueva terminal
 sudo docker ps
 ```
 Y por último, vamos a nuestro navegador, escribimos la IP de nuestro servidor y el puerto 8083. (x.x.x.x:8083) 
-usename:admin
-contraseña:d0j02020
+![alt text](./lab02-images/lab02-fig1-splunk.png "Metasploit framework")
+* usuario : admin
+* contraseña: d0j02020
 
+Felicidades ya lograste instalar Splunk
 
+Para mayor información
+(https://www.splunk.com/)
+(https://www.splunk.com/en_us/training/free-courses/)(splunk-fundamentals-1.html)
 
