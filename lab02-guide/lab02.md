@@ -12,8 +12,7 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 * Conexion Remota al servidor (Putty)
 * Identificar dirección IP del host - Ubuntu Server 20.04  
 
-**Pasos**
-**Actualizar eñ repositorio de paques del sistema operativo**
+**Actualizar eñ repositorio de paquetes del sistema operativo**
 ```
 apt-get update && apt-get upgrade -y
 ```
