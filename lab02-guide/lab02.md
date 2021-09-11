@@ -94,8 +94,10 @@ Y por último, vamos a nuestro navegador, escribimos la IP de nuestro servidor y
 * usuario : admin
 * contraseña: d0j02020
 
-Felicidades ya lograste instalar Splunk ahora vamos a importar un bitacora que contienen los eventos de windows
-Para descargar: https://www.dropbox.com/s/qxeapputhg69qyd/Splun%20-%20Event%20Log%20example.evtx?dl=0
+Felicidades ya lograste instalar Splunk
+
+**Ahora vamos a importar un bitacora que contienen los eventos de windows**
+
 
 
 Para mayor información
