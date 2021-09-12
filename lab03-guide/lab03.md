@@ -1,23 +1,26 @@
 Instalar Graylog Server on Ubuntu 20.04
 
-**Introducción**
-Graylog es una herramienta de agregación y gestión de registros de código abierto que puede utilizarse para almacenar, analizar y enviar alertas de los registros recopilados. Graylog puede utilizarse para analizar registros estructurados y no estructurados utilizando ElasticSearch y MongoDB. Esto incluye una variedad de sistemas, incluyendo sistemas Windows, sistemas Linux, diferentes aplicaciones y microservicios, etc.
+<h1><span style="color:blue">Introducción</span></h1>
+
+
+Graylog es una herramienta de agregación y gestión de registros de código abierto que puede utilizarse para almacenar, analizar y enviar alertas de los registros recopilados. Graylog puede utilizarse para analizar registros estructurados y no estructurados utilizando ElasticSearch y MongoDB.  Esto incluye una variedad de sistemas, incluyendo sistemas Windows, sistemas Linux, diferentes aplicaciones y microservicios, etc.
 
 **Graylog tiene los siguientes componentes**
 
-Servidor Graylog
-MongoDB
-ElasticSearch
-Pasemos rápidamente a la instalación del servidor Graylog en un host Ubuntu 20.04. A continuación, vamos a configurar SSL utilizando Let'sEncrypt.
-To achieve this, we will need to install Nginx to serve as a reverse-proxy on our system.
+1. Servidor Graylog
+1. MongoDB
+1. ElasticSearch
 
-**Requisitos**
+<h1><span style="color:blue">Requisitos</span></h1>
 
 4 CPU Cores
 8 GB RAM
 Ubuntu 20.04 LTS installed and updated.
 
-**Step 1 – Install Java on Ubuntu 20.04**
+<h1><span style="color:blue">Inicia la instalación</span></h1>
+
+<span style="color:red">Step 1 – Instalar Java en Ubuntu 20.04</span>
+
 Java version 8 and above is required for Graylog installation. In this post, we shall use open JDK 11
 
 ```
@@ -36,7 +39,9 @@ You can verify the java version you just installed using the java -version comma
  java -version
 `````
 
-**Step 2 – Install Elasticsearch on Ubuntu 20.04**
+<span style="color:red">Step 2 – Install Elasticsearch on Ubuntu 20.04</span>
+
+
 ```
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
@@ -51,14 +56,11 @@ echo "deb https://artifacts.elastic.co/packages/oss-7.x/apt stable main" | sudo 
 sudo apt update
 sudo apt install -y elasticsearch-oss
 ```
-```
-```
 
 Configure cluster name for Graylog.
 ```
 sudo vim /etc/elasticsearch/elasticsearch.yml
 ```
-
 Edit the cluster name to graylog
 ```
 cluster.name: graylog
@@ -69,7 +71,7 @@ Add the following information in the same file
 action.auto_create_index: false
 ```
 Reload daemon the start Elasticsearch service.
-````
+```
 sudo systemctl daemon-reload
 sudo systemctl start elasticsearch
 sudo systemctl enable elasticsearch
@@ -98,7 +100,6 @@ sudo apt install -y mongodb-server
 ```
 Start MongoDB
 ```
-
 ```
 sudo systemctl start mongodb
 ```
@@ -106,7 +107,7 @@ sudo systemctl start mongodb
 sudo systemctl enable mongodb
 ```
 ```
-$ systemctl status mongodb
+sudo systemctl status mongodb
 ```
 ***Step 4 – Install Graylog Server on Ubuntu 20.04
 Download and configure Graylog repository.***
@@ -117,15 +118,16 @@ wget https://packages.graylog2.org/repo/packages/graylog-4.1-repository_latest.d
 sudo dpkg -i graylog-4.1-repository_latest.deb
 ```
 **Install Graylog server:**
-
-```sudo apt update
+```
+sudo apt update
 ```
 ```
 sudo apt install -y graylog-server
 ```
 Generate a secret to secure user passwords using pwgen command
 
-```pwgen -N 1 -s 96
+```
+pwgen -N 1 -s 96
 ```
 The output should look like:
 
@@ -144,7 +146,8 @@ web_listen_uri = http://127.0.0.1:9000/
 ```
 The next step is to create a hash sha256 pasword for the administrator. This is the password you will need to login to the web interface.
 
-```echo -n Str0ngPassw0rd | sha256sum
+```
+echo -n Str0ngPassw0rd | sha256sum
 ```
 Replace ‘Str0ngPassw0rd’ with a password of your choice.
 
@@ -194,3 +197,8 @@ You can then access graylog web dashboard on:
 http://serverip_hostname:9000
 ```
 Updated:12/09/2021
+
+Referencias
+1. https://www.graylog.org/
+
+1. https://computingforgeeks.com/install-graylog-on-ubuntu-with-lets-encrypt/#comments
