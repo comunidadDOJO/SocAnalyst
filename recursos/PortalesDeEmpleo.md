@@ -7,8 +7,12 @@ Algunos portales que puedes considerar.
 
 Portal | Url | Alcance
 --- | --- | --- 
-*Konzerta* | `https://www.konzerta.com/` | Panamá
+*Konzerta* | https://www.konzerta.com/ | Panamá
 *Indeed Panamá* | https://pa.indeed.com/ | Panamá
+*Estas contratado* | https://www.estascontratado.com// | Panamá
+*Acccion trabajo* | https://acciontrabajo.com.pa/ | Panamá
+*Cybersn* | https://cybersn.com/ | Estados Unidos
+*Randsta* | https://www.randstadusa.com/ | Estados Unidos
 *Cloudy Jobs* | https://cloudyjobs.com/ | Exterior
 *Zip Recruirter* | https://www.ziprecruiter.com/ | Experior
 *Naukri* | https://www.naukri.com/ | Experior
@@ -17,3 +21,6 @@ Portal | Url | Alcance
 *Tecno empleo* |https://www.tecnoempleo.com/ | España
 *Info Jobs* | https://www.infojobs.net// | España
 *Info empleos* | https://www.infoempleo.com/// | España
+*Get work* | https://getwork.com/ | España
+*Work Polis* | https://www.workopolis.com/en/ | España
+
