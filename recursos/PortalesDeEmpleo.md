@@ -22,7 +22,9 @@ Portal | Url | Alcance
 *Info Jobs* | https://www.infojobs.net// | España
 *Info empleos* | https://www.infoempleo.com/// | España
 *Get work* | https://getwork.com/ | España
-*Work Polis* | https://www.workopolis.com/en/ | España
+*FlexJobs* | https://www.flexjobs.com/ | Remoto
+*WeRemoto | https://www.weremoto.com/ | Remoto
+*Magneto* | https://home.magneto365.com/ | Remoto
 
 Actualizado: 14/09/2021
 
