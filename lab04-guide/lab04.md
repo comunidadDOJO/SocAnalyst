@@ -74,7 +74,10 @@ Password: xplico
 Step 1 - Create a new case
 After login in to the Xplico interface, create a new case. For this, go to case, then new case.
 
-![alt text]( ./lab04-images/lab04 - 1.png "Metasploit framework")
+![alt text](./lab01-images/lab01-fig3-msf-console.PNG "Metasploit framework")
+ 
+![alt text](./lab04-images/lab04 - 1.png "Metasploit framework")
+ 
 
 Step 2 - Select Upload PCAP capture file(s)
 Select the option "Upload PCAP capture file(s)". Write a name and click on create.
