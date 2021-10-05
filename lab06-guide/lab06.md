@@ -40,13 +40,13 @@ El primer paso y el mas importante es instalar __GIT__ utilizando el comando __s
 sudo apt install git
 ```
 
-![alt text](./lab06-guide/Imagenes/caldera-guide-git-install.png "Instalacion de CALDERA")
+![Feeds 1](./Imagenes/caldera-guide-git-install.png)  
 
 ```
 git clone https://github.com/mitre/caldera.git --recursive --branch 3.0.0
 ```
 
-![alt text](./lab06-guide/Imagenes/caldera-guide-caldera-install.png "Instalacion de CALDERA")
+![Feeds 2](./Imagenes/caldera-guide-caldera-install.png "Instalacion de CALDERA")
 
 
 
