@@ -29,7 +29,7 @@ Para desarrollar debemos:
 
 Duración del laboratorio: 30 minutos
 
-# 1. ¿Como Se instala CALDERA Mitre?
+# 1. ¿Cómo Se instala CALDERA Mitre?
 
 ### Paso 1 - Instalar CALDERA
 
@@ -144,7 +144,7 @@ Aquí podemos ver el inicio de sesión en el grupo del equipo rojo, el equipo ro
 
 ![alt text](./Imagenes/Caldera-Mitre/caldera-mitre-guide-PortalWeb-red.png "Inicio de Usuario")
 
-# 3. Como Ejecutar un agente
+# 3. ¿Cómo Ejecutar un agente?
 
 ### Nota 1
 
@@ -165,7 +165,7 @@ Los pasos a seguir para desplegar un agente es elegir esta opción, elegir *sanc
 
 ![alt text](./Imagenes/Agente-Caldera/caldera-mitre-guide-ConfiguracionAgente.png "Creacion de Agente")
 
-### Paso 3 - Copiar el Scrip
+### Paso 3 - Copiar el Script
 
 A continuación, se muestra un ejemplo de lo explicado anteriormente, una vez pegado presionamos enter y se ejecutará el proceso, luego lo minimizamos y continuamos.
 ![alt text](./Imagenes/Agente-Caldera/caldera-mitre-guide-CorrerScrip.png "Ejecucion de Scrip")
@@ -180,7 +180,7 @@ En la pestaña de entrenamiento podemos ver que podemos agregar nuestra máquina
 
 ![alt text](./Imagenes/Agente-Caldera/caldera-mitre-guide-Training.png "Ejecucion de Scrip")
 
-# 4. Como Ejecutar un agente**
+# 4. ¿Cómo Ejecutar un agente?**
 
 ### Paso 1 - Menú de Operaciones
 
