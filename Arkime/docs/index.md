@@ -1,6 +1,6 @@
 # Arkime
 
-![Arkime](images/logo.png)
+![Arkime](images/logo.PNG)
 
 ## **Introducción**
 
