@@ -24,7 +24,11 @@ sudo gvm-setup
 
 Se iniciará la descarga de todas las firmas que utiliza Openvas para detectar vulnerabilidades
 
+El script gvm-setup mostrará la contraseña del admin al final
+
 ![img](https://uploads-ssl.webflow.com/5e6befb8c88b0e98c69b1333/600829d3e1a49b0ec39c46e0_4%20IMAGEN.jpg)
+
+. Si se olvidó de escribirla, puede restablecer la contraseña del admin con el comando gvmd como el _gvm.  
 
 **Paso 4 Instala UFW**
 
