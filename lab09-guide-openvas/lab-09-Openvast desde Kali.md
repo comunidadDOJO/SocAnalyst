@@ -93,6 +93,8 @@ https://localhost:9392/
 
 ![Image for post](https://uploads-ssl.webflow.com/5e6befb8c88b0e98c69b1333/60082a3e0a929d9013e65135_1*i7OcH3rEYxbBPyjYZ83Rlg.png)
 
-![img](https://uploads-ssl.webflow.com/5e6befb8c88b0e98c69b1333/60082a74a911e45fed592f8b_9%20IMAGEN.jpg)Guía de Instalación de OpenVAS en Kali Linux
+![img](https://uploads-ssl.webflow.com/5e6befb8c88b0e98c69b1333/60082a74a911e45fed592f8b_9%20IMAGEN.jpg)
+
+Guía de Instalación de OpenVAS en Kali Linux
 
 __Ultima actualización 10/22/21__
