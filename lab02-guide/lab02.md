@@ -1,4 +1,4 @@
-Instalación de Splunk y carga de Datos
+Instalación de Splunk 
 ===============
 Este laboratorio es para fines educativos y su contenido no debe ser utilizado para fines ilícitos  
 
@@ -95,9 +95,6 @@ Y por último, vamos a nuestro navegador, escribimos la IP de nuestro servidor y
 * contraseña: d0j02020
 
 Felicidades ya lograste instalar Splunk
-
-**Ahora vamos a importar un bitacora que contienen los eventos de windows**
-
 
 
 Para mayor información
