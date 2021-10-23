@@ -39,9 +39,18 @@ Se iniciará la descarga de todas las firmas que utiliza Openvas para detectar v
 
 ![img](https://uploads-ssl.webflow.com/5e6befb8c88b0e98c69b1333/600829d3e1a49b0ec39c46e0_4%20IMAGEN.jpg)
 
-El script gvm-setup mostrará la contraseña del admin al final.
+El siguiente comando mostrará la contraseña del admin al final:
+```
+sudo gvm-setup
+```
 
-_Si se olvidó de escribirla, puede restablecer la contraseña del admin con el comando gvmd como el _gvm.__
+_Si se olvidó de escribirla o guardarla, puede restablecer la contraseña del admin con el comando gvmd explicado al correr el comando anterior_
+
+Para crear otro usuario y contraseña puedes utilizar el siguiente comando y ejemplo:
+```
+sudo runuser -u _gvm -- gvmd --create-user=kali --new-password=12345 
+```
+Este comando generara una contraseña la cual debes copiar y utilizar
 
 **Esta tarea puede tomar un aproximado de 15 a 30 minutos, dependiendo de las especificaciones de la máquina virtual y la red** 
 
@@ -74,7 +83,7 @@ sudo apt-get install -y greenbone-security-assistant
 
 ![img](https://uploads-ssl.webflow.com/5e6befb8c88b0e98c69b1333/60082a1fa43b8c5c5e7a272f_7%20IMAGEN.jpg)
 
-### Paso 7 Confirma que OpenVas estés instalado correctamente y listo para ser usado
+### Paso 7: Confirma que OpenVas estés instalado correctamente y listo para ser usado
 ```
 sudo gvm-check-setup
 ```
