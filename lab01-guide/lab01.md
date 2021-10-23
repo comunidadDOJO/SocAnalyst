@@ -28,7 +28,7 @@ search ms17_010
 use auxiliary/scanner/smb/smb_ms17_010
 ``` 
 ```
-set RHOSTS “Dirección IP del host windows 7 64bits”
+set RHOSTS “Debe colocar la dirección IP del host windows 7 64 bits”
 ```
 ```
 run
