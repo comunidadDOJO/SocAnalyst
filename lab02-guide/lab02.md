@@ -8,9 +8,12 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 * Cargar datos  
 
 **Requisitos**
-* Acceso a DOJO Cloud Lab por VPN ( openVPN)
-* Conexion Remota al servidor (Putty)
-* Identificar dirección IP del host - Ubuntu Server 20.04  
+* Desde VirtuaBox, inciar las máquinas virtuales de Kali Linux y Ubuntu Server 20.04
+* Identificar dirección IP del host - Ubuntu Server 20.04 , para lo cual puede iniciar sesion acceder a la terminal y utilizar el comando ifconfig. 
+* Conexion Remota al servidor (Putty), Debe utilizar el IP de sus servidor ubuntu 20.04 y utilizar las credenciales user:dojolab pwd:dojolab o user:test y pwd:test debendiento desde donde descargo la máquina virtual.
+
+``` 
+ssh root@10.0.2.15
 
 **Actualizar eñ repositorio de paquetes del sistema operativo**
 ```
