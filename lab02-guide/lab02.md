@@ -13,7 +13,7 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 ``` 
 ifconfig
 ``` 
-* Ahora anote la dirección, debe algo parecido a 10.0.2.15
+Ahora anote la dirección, debe algo parecido a 10.0.2.15
 
 * Conexion Remota al servidor 
 Desde Kali. 
