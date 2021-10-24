@@ -19,9 +19,14 @@ Ahora anote la dirección, debe algo parecido a 10.0.2.15
 Desde Kali. 
 
 Debe utilizar el IP de su servidor ubuntu 20.04 y utilizar las credenciales compartidad en el canal en Discord.
+---
+**NOTA**
+Reemplase usuario y dirección IP por los asociados sus servidor ubuntu
+---
+
 
 ``` 
-ssh root@10.0.2.15
+ssh usuario@direcciónIP
 ``` 
 
 **Actualizar eñ repositorio de paquetes del sistema operativo**
