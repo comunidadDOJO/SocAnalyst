@@ -1,4 +1,4 @@
-Instalación de Splunk 
+Instalación de Splunk - Actualizado 24 de Octubre de 2021 | 11:30 am
 ===============
 Este laboratorio es para fines educativos y su contenido no debe ser utilizado para fines ilícitos  
 
