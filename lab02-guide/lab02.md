@@ -1,6 +1,7 @@
 Instalación de Splunk - Actualizado 24 de Octubre de 2021 | 11:30 am
 ===============
-Este laboratorio es para fines educativos y su contenido no debe ser utilizado para fines ilícitos  
+Este laboratorio es para fines educativos y su contenido no debe ser utilizado para fines ilícitos. 
+
 
 **Objetivos**
 * Instalar la versión gratuita de Splunk 
@@ -75,7 +76,7 @@ nano docker-compose.yml
 ```
 Copie todo el contenido siguiente desde version:2 hasta splunk-data:/opt/splunk en el archivo docker-compose.yml
 
-Guarde y cierre el archivo
+Guarde y cierre el archivo (Ctrl+x  luego Y, favor leer la barra de estado se explica o leer sobre el uso del editor nano)
 ```
 version: "2"
 
