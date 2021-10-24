@@ -115,7 +115,10 @@ docker-compose up -d
 
 Ahora abrimos firefox, para acceder al splunk desde la web
 escriba: 
+
+```
 /usr/bin/firefox --new-window 10.0.2.5:8083 
+```
 
 * usuario : admin
 * contraseña: d0j02020
