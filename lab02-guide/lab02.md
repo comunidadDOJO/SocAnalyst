@@ -116,5 +116,5 @@ Felicidades ya lograste instalar Splunk
 
 
 Para mayor información
-[Sitio oficial de Splunk] (https://www.splunk.com/)
-[Curso gratuito oficial de Splunk] (https://www.splunk.com/en_us/training/free-courses/)(splunk-fundamentals-1.html)
+* [Sitio oficial de Splunk] (https://www.splunk.com/)
+* [Curso gratuito oficial de Splunk] (https://www.splunk.com/en_us/training/free-courses/)(splunk-fundamentals-1.html)
