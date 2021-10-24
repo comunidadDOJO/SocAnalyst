@@ -20,7 +20,7 @@ Desde Kali.
 
 Debe utilizar el IP de su servidor ubuntu 20.04 y utilizar las credenciales compartidad en el canal en Discord.
  
-**_NOTA:_**  Reemplase usuario y dirección IP por los asociados sus servidor ubuntu
+**_NOTA:_**  Reemplase usuario y dirección IP por los asociados a su servidor ubuntu 20.04
 
 
 ``` 
