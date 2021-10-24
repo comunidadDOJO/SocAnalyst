@@ -107,14 +107,14 @@ Ahora descargamos e instalamos la imagen de Splunk desde el hub Docker usando lo
 docker-compose up
 ```
 
-Ahora confirmamos que splunk está en funcionamiento abriendo una nueva terminal y utilizando el comando
-```
-sudo docker ps
-```
-Y por último, vamos a nuestro navegador, escribimos la IP de nuestro servidor y el puerto 8083. (x.x.x.x:8083) 
-![alt text](./lab02-images/lab02-fig1-splunk.png "Metasploit framework")
+Ahora abrimos firefox, escribimos la IP de nuestro servidor utilizando el puerto 8083
+
+Ejemplo:  10.0.2.15:8083
 * usuario : admin
 * contraseña: d0j02020
+
+![alt text](./lab02-images/lab02-fig1-splunk.png "Metasploit framework")
+
 
 Felicidades ya lograste instalar Splunk
 
