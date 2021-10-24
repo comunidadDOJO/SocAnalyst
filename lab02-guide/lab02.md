@@ -9,11 +9,16 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 
 **Requisitos**
 * Desde VirtuaBox, inciar las máquinas virtuales de Kali Linux y Ubuntu Server 20.04
+* Realizar un snapshot de la VM Ubuntu 20.04 para que pueda restarurarla en caso de ser necesario.
 * Identificar dirección IP del host - Ubuntu Server 20.04. Desde la termimal de este servidor escriba ese comando: 
 ``` 
 ifconfig
 ``` 
 Ahora anote la dirección, debe algo parecido a 10.0.2.15
+
+Detalles a considerar 
+* Las VM deben estar en la misma red NAT
+* verificar que puedas llegar a cada máquina con el comando ping
 
 * Conexion Remota al servidor 
 Desde Kali. 
@@ -104,7 +109,7 @@ services:
 Ahora descargamos e instalamos la imagen de Splunk desde el hub Docker usando los datos del archivo .yml que acabamos de crear usando el siguiente código docker-compose up. Este comando también nos permitirá ejecutar splunk para que podamos acceder a la interfaz web y empezar a utilizarla.
 
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 Ahora abrimos firefox, escribimos la IP de nuestro servidor utilizando el puerto 8083
