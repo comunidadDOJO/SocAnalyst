@@ -67,6 +67,8 @@ docker-compose version
 ```
 nano docker-compose.yml 
 ```
+Copie todo el contenido siguiente desde version:2 hasta splunk-data:/opt/splunk en el archivo docker-compose.yml
+Guarde y cierre el archivo
 ```
 version: "2"
 
