@@ -22,12 +22,15 @@ Debe utilizar el IP de su servidor ubuntu 20.04 y utilizar las credenciales comp
  
 **_NOTA:_**  Reemplase usuario y dirección IP por los asociados a su servidor ubuntu 20.04
 
-
 ``` 
 ssh usuario@direcciónIP
 ``` 
+* Elevemos privilegios, para facilitar el ejercio.
+``` 
+sudo su
+``` 
 
-**Actualizar eñ repositorio de paquetes del sistema operativo**
+* Actualizar eñ repositorio de paquetes del sistema operativo**
 ```
 apt-get update && apt-get upgrade -y
 ```
