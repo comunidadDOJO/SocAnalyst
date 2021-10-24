@@ -9,11 +9,16 @@ Este laboratorio es para fines educativos y su contenido no debe ser utilizado p
 
 **Requisitos**
 * Desde VirtuaBox, inciar las máquinas virtuales de Kali Linux y Ubuntu Server 20.04
-* Identificar dirección IP del host - Ubuntu Server 20.04 , para lo cual debe abrir una sesion de terminal y escribir 
+* Identificar dirección IP del host - Ubuntu Server 20.04. Desde la termimal de este servidor escriba ese comando: 
 ``` 
 ifconfig
 ``` 
-* Conexion Remota al servidor (Putty), Debe utilizar el IP de sus servidor ubuntu 20.04 y utilizar las credenciales user:dojolab pwd:dojolab o user:test y pwd:test debendiento desde donde descargo la máquina virtual.
+* Ahora anote la dirección, debe algo parecido a 10.0.2.15
+
+* Conexion Remota al servidor 
+Desde Kali. 
+
+Debe utilizar el IP de su servidor ubuntu 20.04 y utilizar las credenciales compartidad en el canal en Discord.
 
 ``` 
 ssh root@10.0.2.15
