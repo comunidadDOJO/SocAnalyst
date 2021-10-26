@@ -133,4 +133,4 @@ Para mayor información
 * [Sitio oficial de Splunk] (https://www.splunk.com/)
 * [Curso gratuito oficial de Splunk] (https://www.splunk.com/en_us/training/free-courses/)(splunk-fundamentals-1.html)
 
-[![Alternate Text]({image-url})]({https://www.youtube.com/watch?v=KPWWN522xj0} "Link Title")
+ https://www.youtube.com/watch?v=KPWWN522xj0
