@@ -132,10 +132,8 @@ Felicidades ya lograste instalar Splunk
 Para mayor información
 * [Sitio oficial de Splunk] (https://www.splunk.com/)
 * [Curso gratuito oficial de Splunk] (https://www.splunk.com/en_us/training/free-courses/)(splunk-fundamentals-1.html)
-
-Video explicativo de como realizar el laboratorio. 
+* Video explicativo de como realizar el laboratorio. 
  https://www.youtube.com/watch?v=KPWWN522xj0
 
 Créditos por el video:
-Magdiel Gutiérrez
-https://www.linkedin.com/in/magdielgutierrez/
+Magdiel Gutiérrez https://www.linkedin.com/in/magdielgutierrez/
