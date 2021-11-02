@@ -134,10 +134,6 @@ Esperamos que se construyan los contenedores, esta es la salida:
 
 ![Construir DockerCompose](./Imagenes/misp17.png)
 
-
-
-
-
 ## Paso 13 - Verificar los contenedores en funcionamiento
 
 Para verificar los contenedores en ejecución, podemos ejecutar el comando:
