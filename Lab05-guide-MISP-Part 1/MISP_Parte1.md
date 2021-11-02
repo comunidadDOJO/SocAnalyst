@@ -191,4 +191,4 @@ Como es la primera vez que iniciamos sesión en la plataforma, por seguridad, MI
 
 **Con todos estos pasos, hemos ejecutado con éxito una instancia de MISP en un contenedor de Docker.**
 
-![Construir DockerCompose](./Imagenes/misp25.png)
+![Construir DockerCompose](./Imagenes/misp25.PNG)
