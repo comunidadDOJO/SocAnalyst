@@ -140,7 +140,7 @@ Para verificar los contenedores en ejecución, podemos ejecutar el comando:
 
     docker ps
 
-![Construir DockerCompose](./Imagenes/misp18.png)
+![Construir DockerCompose](./Imagenes/misp18.PNG)
 
 **Los contenedores deben estar funcionando cuando el estado sea correcto.**
 
@@ -150,17 +150,17 @@ En el directorio misp-docker tenemos que cambiar el directorio a **data / web / 
 
     cd misp-docker/data/web/app/Config/
 
-![Construir DockerCompose](./Imagenes/misp19.png)
+![Construir DockerCompose](./Imagenes/misp19.PNG)
 
 Luego tenemos que abrir el archivo **config.php** . Para hacer esto podemos ejecutar el comando:
 
     nano config.php
 
-![Construir DockerCompose](./Imagenes/misp20.png)
+![Construir DockerCompose](./Imagenes/misp20.PNG)
 
 En este archivo tenemos que borrar el valor de la **variable baseurl** , probablemente tenga 'localhost' como el valor de esta variable, tenemos que eliminar solo **'localhost'** y poner solo **'baseurl' => ''** como mostramos en la imagen debajo. A continuación, guarde el archivo pulsando la combinación de teclas **CTRL + O** y para salir del editor nano pulse la combinación de teclas **CTRL + X** .
 
-![Construir DockerCompose](./Imagenes/misp21.png)
+![Construir DockerCompose](./Imagenes/misp21.PNG)
 
 ## Paso 15 - Abrir MISP
 
@@ -170,7 +170,7 @@ Para abrir MISP, abra el navegador y vaya a ...
 
 Tienes que reemplazar con su dirección IP, ej. http://192.168.1.24.
 
-![Construir DockerCompose](./Imagenes/misp22.png)
+![Construir DockerCompose](./Imagenes/misp22.PNG)
 
 Si no cambiamos nada, la cuenta de administrador predeterminada es:
 
@@ -179,13 +179,13 @@ Email: admin@admin.test
 Password:admin
 ```
 
-![Construir DockerCompose](./Imagenes/misp23.png)
+![Construir DockerCompose](./Imagenes/misp23.PNG)
 
 ## Paso 16: Cambiar la contraseña de administrador
 
 Como es la primera vez que iniciamos sesión en la plataforma, por seguridad, MISP solicitará cambiar la contraseña.
 
-![Construir DockerCompose](./Imagenes/misp24.png)
+![Construir DockerCompose](./Imagenes/misp24.PNG)
 
 ## Paso 17 - Explorar MISP
 
